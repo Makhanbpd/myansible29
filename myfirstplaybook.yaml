@@ -10,4 +10,8 @@
    - name: i want to install tree
      apt:
       name: tree
-      state: present   
+      state: present
+   - name: i wan to install webserver
+     apt:
+      name: apache2
+      state: present      
