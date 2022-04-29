@@ -1,7 +1,0 @@
----
-  - tasks:
-    become: yes
-  - name: i want inatall webserver
-    apt: 
-     name: git
-     state: present
