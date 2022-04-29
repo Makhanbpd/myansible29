@@ -1,13 +1,13 @@
 ---
 - hosts: all
   tasks:
-  become: yee
+  become: yes
 - name: install git
   apt:
     name: git
     state: present
+
 - name: install tree
   apt:
-    name: tree
-    state: present      
-     
+   name: tree
+   state: present    
